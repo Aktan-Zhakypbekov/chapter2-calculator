@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="main-cont">
+      <header class="header">
+        <div class="header__title">PIP-CALCULATOR</div>
+      </header>
+      <main class="main">
+        <div class="calculator-cont">
+          <div class="notifications-cont">
+            <div class="notifications-cont__panel">
+              <div class="notifications-cont__panel__number-input-lamp"></div>
+              <div
+                class="notifications-cont__panel__operation-input-lamp"
+              ></div>
+              <div class="notifications-cont__panel__equals-input-lamp"></div>
+              <div class="notifications-cont__panel__clean-input-lamp"></div>
+            </div>
+          </div>
+          <div class="calculator">
+            <div class="calc__display-cont">
+              <div class="calc__display-cont__calculation-display">
+                <div
+                  class="calc__display-cont__calculation-display__input"
+                ></div>
+              </div>
+              <div class="calc__display-cont__result-display">
+                <div class="calc__display-cont__result-display__input"></div>
+              </div>
+              <div class="calc__display-cont__img-display">
+                <div class="calc__display-cont__img-display__img-cont">
+                  <img
+                    id="vaultBoyImg"
+                    src="https://i.pinimg.com/originals/64/b3/7a/64b37aadcaab45f2fa0348897cacda54.jpg"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="calc__digitboard">
+              <button class="calc__digitboard__button clean" id="ac">AC</button>
+
+              <button
+                class="calc__digitboard__button operation"
+                value="^"
+                id="pow"
+              >
+                ^
+              </button>
+              <button
+                class="calc__digitboard__button operation"
+                value="%"
+                id="modulo"
+              >
+                %
+              </button>
+              <button
+                class="calc__digitboard__button operation"
+                value="/"
+                id="division"
+              >
+                /
+              </button>
+              <button class="calc__digitboard__button number" value="7" id="7">
+                7
+              </button>
+              <button class="calc__digitboard__button number" value="8" id="8">
+                8
+              </button>
+              <button class="calc__digitboard__button number" value="9" id="9">
+                9
+              </button>
+              <button
+                class="calc__digitboard__button operation"
+                value="x"
+                id="multiplication"
+              >
+                x
+              </button>
+              <button class="calc__digitboard__button number" value="4" id="4">
+                4
+              </button>
+              <button class="calc__digitboard__button number" value="5" id="5">
+                5
+              </button>
+              <button class="calc__digitboard__button number" value="6" id="6">
+                6
+              </button>
+              <button
+                class="calc__digitboard__button operation"
+                value="-"
+                id="subtraction"
+              >
+                -
+              </button>
+              <button class="calc__digitboard__button number" value="1" id="1">
+                1
+              </button>
+              <button class="calc__digitboard__button number" value="2" id="2">
+                2
+              </button>
+              <button class="calc__digitboard__button number" value="3" id="3">
+                3
+              </button>
+              <button
+                class="calc__digitboard__button operation"
+                value="+"
+                id="addition"
+              >
+                +
+              </button>
+              <button class="calc__digitboard__button number" value="0" id="0">
+                0
+              </button>
+              <button
+                class="calc__digitboard__button number"
+                value="."
+                id="point"
+              >
+                .
+              </button>
+              <button class="calc__digitboard__button" value="=" id="equals">
+                =
+              </button>
+              <div class="calc__digitboard__logo"><div>Vault Tec</div></div>
+            </div>
+          </div>
+          <div class="brand-cont">
+            <div class="brand-cont__name">PIP</div>
+          </div>
+        </div>
+      </main>
+      <footer class="footer"><div>Made by AZ</div></footer>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

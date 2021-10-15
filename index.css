@@ -1,0 +1,213 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+body {
+  font-family: "Orbitron", sans-serif;
+}
+.main-cont {
+  max-width: 1520px;
+  background-color: red;
+}
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-color: rgb(0, 7, 12);
+  height: 45px;
+  color: green;
+  font-size: 25px;
+}
+.header__title {
+  margin-left: 15px;
+}
+.main {
+  background-color: rgb(10, 44, 54);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 730px;
+}
+.calculator-cont {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 30fr 2fr;
+}
+.notifications-cont {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.notifications-cont__panel {
+  background-color: rgb(13, 24, 0);
+  width: 156px;
+  height: 29px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.notifications-cont__panel__number-input-lamp,
+.notifications-cont__panel__operation-input-lamp,
+.notifications-cont__panel__equals-input-lamp,
+.notifications-cont__panel__clean-input-lamp {
+  background-color: rgb(71, 82, 71);
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  margin-top: 6px;
+}
+
+.calculator {
+  width: 820px;
+  height: 510px;
+  display: grid;
+  grid-template-columns: 5fr 6fr;
+  grid-template-rows: 1fr;
+  border: 16px solid rgb(13, 24, 0);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: rgb(13, 24, 0);
+}
+.calc__display-cont {
+  background-color: black;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 2fr 2fr 7fr;
+  border: 8px solid rgb(2, 3, 7);
+  border-radius: 10px;
+  margin-right: 3px;
+}
+.calc__display-cont__calculation-display {
+  border-bottom: 1px solid rgb(60, 250, 2);
+  color: green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.calc__display-cont__calculation-display__input {
+  width: 350px;
+  height: 50px;
+  background-color: black;
+  color: green;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.1rem;
+  text-align: right;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.calc__display-cont__calculation-display__input:focus {
+  outline: none;
+}
+.calc__display-cont__result-display {
+  border-bottom: 1px solid rgb(60, 250, 2);
+  color: green;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.calc__display-cont__result-display__input {
+  width: 350px;
+  height: 50px;
+  background-color: black;
+  color: green;
+  font-family: "Orbitron", sans-serif;
+  font-size: 2.1rem;
+  text-align: right;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.calc__display-cont__result-display__input:focus {
+  outline: none;
+}
+.calc__display-cont__img-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.calc__display-cont__img-display__img-cont {
+  width: 100%;
+  height: 100%;
+}
+
+.calc__digitboard {
+  background-color: rgb(4, 6, 14);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 3px;
+}
+.calc__digitboard__button {
+  width: 85px;
+  height: 75px;
+  background-color: black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  font-family: "Orbitron", sans-serif;
+}
+.calc__digitboard__logo {
+  width: 88px;
+  height: 88px;
+  background-color: black;
+  color: green;
+  border-radius: 50%;
+  font-size: 14px;
+  font-family: "Orbitron", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgb(5, 71, 5);
+}
+.number {
+  color: green;
+}
+.operation {
+  color: rgb(167, 112, 11);
+}
+.clean {
+  color: rgb(53, 53, 204);
+  font-size: 1.2rem;
+}
+#equals {
+  color: rgb(160, 23, 23);
+  font-size: 1.6rem;
+}
+#point {
+  color: green;
+  font-size: 2.3rem;
+}
+#vaultBoyImg {
+  max-width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  opacity: 0.3;
+}
+.brand-cont {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.brand-cont__name {
+  background-color: rgb(13, 24, 0);
+  width: 120px;
+  height: 20px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  text-align: center;
+  color: rgb(124, 101, 26);
+}
+.footer {
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 7, 12);
+  color: green;
+  font-size: 1.1rem;
+}
